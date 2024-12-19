@@ -1,0 +1,52 @@
+# Open Django shell
+# python manage.py shell
+
+# Import the models
+from my_app.models import User, Product
+
+# Add User instances
+User.objects.create(first_name="John", last_name="Doe", email="john.doe@example.com", county_iso="USA")
+User.objects.create(first_name="Jane", last_name="Smith", email="jane.smith@example.com", county_iso="CAN")
+User.objects.create(first_name="Alice", last_name="Brown", email="alice.brown@example.com", county_iso="GBR")
+User.objects.create(first_name="Bob", last_name="White", email="bob.white@example.com", county_iso="AUS")
+User.objects.create(first_name="Charlie", last_name="Johnson", email="charlie.johnson@example.com", county_iso="NZL")
+User.objects.create(first_name="Emily", last_name="Davis", email="emily.davis@example.com", county_iso="USA")
+User.objects.create(first_name="Frank", last_name="Miller", email="frank.miller@example.com", county_iso="CAN")
+User.objects.create(first_name="Grace", last_name="Wilson", email="grace.wilson@example.com", county_iso="GBR")
+User.objects.create(first_name="Hannah", last_name="Moore", email="hannah.moore@example.com", county_iso="AUS")
+User.objects.create(first_name="Ian", last_name="Taylor", email="ian.taylor@example.com", county_iso="NZL")
+User.objects.create(first_name="Jack", last_name="Anderson", email="jack.anderson@example.com", county_iso="USA")
+User.objects.create(first_name="Katie", last_name="Thomas", email="katie.thomas@example.com", county_iso="CAN")
+User.objects.create(first_name="Liam", last_name="Jackson", email="liam.jackson@example.com", county_iso="GBR")
+User.objects.create(first_name="Mia", last_name="White", email="mia.white@example.com", county_iso="AUS")
+User.objects.create(first_name="Nathan", last_name="Harris", email="nathan.harris@example.com", county_iso="NZL")
+User.objects.create(first_name="Olivia", last_name="Martin", email="olivia.martin@example.com", county_iso="USA")
+User.objects.create(first_name="Paul", last_name="Lee", email="paul.lee@example.com", county_iso="CAN")
+User.objects.create(first_name="Quinn", last_name="Young", email="quinn.young@example.com", county_iso="GBR")
+User.objects.create(first_name="Rachel", last_name="Walker", email="rachel.walker@example.com", county_iso="AUS")
+User.objects.create(first_name="Sam", last_name="Hall", email="sam.hall@example.com", county_iso="NZL")
+
+# Add Product instances
+Product.objects.create(name="Laptop", price=999.99, stock=50)
+Product.objects.create(name="Smartphone", price=699.99, stock=150)
+Product.objects.create(name="Tablet", price=399.99, stock=75)
+Product.objects.create(name="Smartwatch", price=199.99, stock=200)
+Product.objects.create(name="Headphones", price=149.99, stock=300)
+Product.objects.create(name="Keyboard", price=49.99, stock=500)
+Product.objects.create(name="Mouse", price=29.99, stock=600)
+Product.objects.create(name="Monitor", price=199.99, stock=120)
+Product.objects.create(name="Printer", price=129.99, stock=80)
+Product.objects.create(name="Speaker", price=99.99, stock=250)
+Product.objects.create(name="Camera", price=499.99, stock=70)
+Product.objects.create(name="Flash Drive", price=19.99, stock=1000)
+Product.objects.create(name="External Hard Drive", price=89.99, stock=150)
+Product.objects.create(name="Router", price=59.99, stock=200)
+Product.objects.create(name="Webcam", price=39.99, stock=180)
+Product.objects.create(name="Microphone", price=89.99, stock=120)
+Product.objects.create(name="Gaming Chair", price=299.99, stock=40)
+Product.objects.create(name="Desk", price=149.99, stock=30)
+Product.objects.create(name="Laptop Stand", price=39.99, stock=90)
+Product.objects.create(name="Docking Station", price=119.99, stock=70)
+
+# Confirmación
+print("Datos agregados correctamente a las tablas User y Product.")
